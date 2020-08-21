@@ -102,6 +102,12 @@ body {
     display: flex;   
     flex-wrap: wrap;
     margin-left: auto;
+  }  
+  .site-header__search-button { 
+    margin-right: 22px;
+  }
+  .site-header__language-toggler { 
+    margin-right: 24px; 
   } 
   /* Logo */ 
   .logo {   
@@ -131,8 +137,7 @@ body {
   /* Search-button */ 
   .search-button { 
     padding: 8px; 
-    border: none;  
-    margin-right: 22px;
+    border: none;    
     background-color: #fff;  
     border-radius: 5px;
   }  
@@ -140,7 +145,6 @@ body {
   .language-toggler { 
     padding: 10px; 
     border: none;  
-    margin-right: 24px;
     background-color: #fff;  
     border-radius: 5px;
   } 

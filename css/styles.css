@@ -94,7 +94,8 @@ body {
   .site-header__top { 
     display: flex;  
     flex-wrap: wrap;
-    align-items: center; 
+    align-items: center;  
+    margin-bottom: 40px;
     font-size: 16px; 
     line-height: 19px;
   }   
@@ -201,5 +202,40 @@ body {
   }
   .telegram-sub-text { 
     font-weight: 500px;
+  }  
+  /* Sitenav */  
+  .sitenav {   
+    margin-bottom: 18px;
+    border-radius: 5px;
+    background-color: #fff; 
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);  
   } 
+  .sitenav__list { 
+    display: flex;  
+    flex-wrap: wrap; 
+    justify-content: center;  
+    align-items: center;
+    padding: 17px 12px; 
+    margin: 0;      
+    list-style-type: none;
+  }   
+  .sitenav__item { 
+    margin: 5px 30px;
+  }
+  .sitenav__link { 
+    display: block;
+    text-decoration: none ; 
+    color: #515151;  
+    font-weight: 500; 
+    font-size: 19px; 
+    line-height: 23px;  
+    transition: color 0.3s ease;
+  } 
+  .sitenav__link:hover { 
+    color: #295091;
+  } 
+  /* Top-banner */  
+  .top-banner__link { 
+    display: flex;
+  }
   

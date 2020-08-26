@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="page__body">
- 
-  <header class="site-header"> 
+    
+   <!-- Site-header --> 
+    <header class="site-header"> 
       <div class="container">  
           <div class="site-header__top">  
             <a class="site-header__logo logo" href="index.html"> 
@@ -18,16 +19,19 @@
              
             <ul class="exchange-rates"> 
                 <li class="exchange-rates__item"> 
-                    <b class="exchange-rates__icon">&dollar;</b> <spanclass="exchange-rates__value" >10137.2 
-                    </span></li> 
+                    <b class="exchange-rates__icon">&dollar;</b> <span class="exchange-rates__value" >10137.2 
+                    </span> 
+                </li> 
                 <li class="exchange-rates__item"> 
                     <b class="exchange-rates__icon">P</b>  
                     <span class="exchange-rates__value">138.26 
-                    </span></li> 
+                    </span> 
+                </li> 
                 <li class="exchange-rates__item"> 
                     <b class="exchange-rates__icon">&euro;</b>   
                     <span class="exchange-rates__value">10988.72 
-                    </span></li>
+                    </span> 
+                </li>
             </ul>
              
             <div class="site-header__actions">
@@ -37,19 +41,41 @@
                  </span> 
                  </button> 
                  <button class="site-header__language-toggler language-toggler" type="button">  
-                     <span class="language-toggler__wrapper">
+                     <span class="language-toggler__wrapper"></span>
              <img class="language-toggler__img" src="img/Russia.svg.png" alt="icon" width="20" height="20">  
              <span class="language-toggler__text">РУ</span>
-                </button> 
+                 </button> 
                 <a class="telegram-sub" href="https://tme.to/mayoquz" target="blank"> 
                 <img class="telegram-sub__img"  
                  src="img/telegram.png" alt="icon" width="20" height="20">
                 <span class="telegram-sub__text">Подписаться</span> 
                 </a>
             </div><!-- site-header__actions -->
-          </div><!-- site-header__top -->
+          </div><!-- site-header__top --> 
+           
+         <!-- SiteNav --> 
+         <!-- nav.sitenav>ul.sitenav__list>li*8>a[href="list.html"] -->  
+         <nav class="sitenav"> 
+           <ul class="sitenav__list">  
+        <li class="sitenav__item"><a class="sitenav__link" href="list.html"> Узбекистан</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="list.html">Мир</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="list.html">Политика</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="list.html">Наманган</a></li>              
+        <li class="sitenav__item"><a class="sitenav__link" href="list.html">Шоу Бизнес</a></li>             
+        <li class="sitenav__item"><a class="sitenav__link" href="list.html">Экономика</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="list.html">Спорт</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="list.html">Технологии<a></li> 
+           </ul> 
+         </nav> 
+          
+         <!-- Top banner --> 
+         <aside class="top-banner "> 
+         <a class="top-banner__link" href="#" target="_blank"> 
+             <img class="top-banner__img" src="img/nrg banner.jpg" srcset="img/nrg banner.jpg 1x,img/nrg banner@2x.jpg 2x," alt=" NRG company banner" width="1200" height="99">
+         </a>
+         </aside> 
          </div><!-- container  --> 
-
+        </header>
    
  
 <script src="js/main.js"></script>

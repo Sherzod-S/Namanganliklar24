@@ -143,7 +143,8 @@ body {
     border: none;    
     background-color: #fff;  
     border-radius: 5px; 
-    transform: box-shadow 0.3s ease; 
+    transform: box-shadow 0.3s ease;  
+    cursor: pointer;
   }    
   .search-button__wrapper { 
     padding: 8px;  
@@ -157,7 +158,8 @@ body {
     border: none;  
     background-color: #fff;  
     border-radius: 5px; 
-    transform: box-shadow 0.3s ease;
+    transform: box-shadow 0.3s ease; 
+    cursor: pointer;
   }    
   .language-toggler:hover {
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);

@@ -248,8 +248,32 @@ body {
   /* Top-banner */  
   .top-banner__link { 
     display: flex;
+  }  
+  /* Site-footer */  
+  .site-footer {  
+    padding: 18px 0; 
+    font-size: 14px; 
+    line-height: 17px;
+    background-color: #295093; 
+    color: #fff;
   } 
-  /* Media queries */  
+  .site-footer__top { 
+    display: flex;  
+    flex-wrap: wrap;  
+    align-items: center;
+  } 
+  .site-footer__logo {  
+    display: flex; 
+    padding: 10px;
+    margin-right: auto; 
+    background-color: #133C82; 
+    border-radius: 5px; 
+    } 
+    .site-footer__sub-text { 
+      margin: 0; 
+      margin-right: 17px; 
+    }
+    /* Media queries */  
   @media (max-width: 1000px) {  
     .Site-header { 
       padding-top:  20px;
